@@ -1,24 +1,27 @@
-<h1 align="center">🌞 Weather Forecast App 🌤</h1>
+<h1 align="center">🌞 Weather Forecast App Rev.2 (with TailwindCSS) 🌤</h1>
 
 <h2>💻 Overview </h2>
 
-<p>The Current Weather Forecast project is a web application developed using ReactJS, Axios, Bootstrap, HTML, and CSS. It allows users to easily view current weather forecasts for any city around the world 🌎, using data provided by the Open Weather API.
+<p>This is the latest version of the Weather Current Forecast build using ReactJS, Axios, HTML, TailwindCSS and Open Weather API.
+
+I build this Rev.2 to put into practice my learningship in TailwindCSS. This is my first project using it, and as I did not use a CSS file, I could reduce the code from almost 360 lines to 122 lines.
+
+The app allows users to easily view current weather forecasts for any city around the world 🌎, using data provided by the Open Weather API and it is totally responsive. You can try it on your 📱 smartphone or desktop.
 
 In addition to its functionality, the project boasts an elegant and user-friendly design, making for a pleasant and intuitive user experience. The interface includes features such as a city search field, elegant weather icons and essential information to keep you aware and avoid surprises throughout your day.
 
-The Current Weather Forecast is a great option for anyone seeking accurate and reliable real-time weather information. The project is easy to use and easily integrated with other web systems and applications. </p>
+The Current Weather Forecast is a great option for anyone seeking accurate and reliable real-time weather information. </p>
 
-<h2>🛰 Used Technologies</h2>
+<h2>🛸 Used Technologies 🛠</h2>
 <ul>
   <li>ReactJS</li>
   <li>Axios</li>
-  <li>Bootstrap</li>
+  <li>TailwindCSS</li>
   <li>Open Weather API</li>
   <li>HTML</li>
-  <li>CSS</li>
 </ul>
 
-<h2>🖥 Video Presentation </h2>
+<h2>🧑🏻‍💻 Video Presentation </h2>
 
 <div align='center'>
   <p>Watch below the short presentation of the Current Weather Forecast app.</p>
@@ -27,15 +30,15 @@ The Current Weather Forecast is a great option for anyone seeking accurate and r
 <br></br>
 
 
-<h2>💡 Learn More</h2>
+<h2>🔭 Learn More</h2>
 
 <p>You can learn more in the <a href="https://create-react-app.dev/docs/getting-started/" target="_blank">Create React App documentation</a>.</p>
 <p>To learn React, check out the <a href="https://reactjs.org/" target="_blank" >React documentation</a>.</p>
-<p>To learn Bootstrap, check out the <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" >Bootstrap documentation</a>.</p>
+<p>To learn TailwindCSS, check out the <a href="https://tailwindcss.com" target="_blank" >TailwindCSS documentation</a>.</p>
 <p>To learn Axios, check out the <a href="https://axios-http.com/docs/intro" target="_blank">Axios documentation</a>.</p>
 <p>To learn about Open Weather API, check out the <a href="https://openweathermap.org/guide" target="_blank">Open Weather Guide</a>.</p>
 
-<h2>🚀 Execute it</h2>
+<h2>📝 Execute it</h2>
 
 <p>The project has been deployed on the Netlify and can be accessed through the link below: </p>
 
