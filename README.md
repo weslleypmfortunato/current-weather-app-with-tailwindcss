@@ -42,8 +42,8 @@ The Current Weather Forecast is a great option for anyone seeking accurate and r
 
 <p>The project has been deployed on the Netlify and can be accessed through the link below: </p>
 
-<a href="https://new-current-weather-forecast.netlify.app/" target="_blank">
-  Weather Forecast App
+<a href="https://new-current-weather-forecast-rev2.netlify.app" target="_blank">
+  Weather Forecast App Rev.2
 </a>
 
 <h2> 👨 About the developer</h2>

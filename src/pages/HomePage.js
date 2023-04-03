@@ -60,7 +60,7 @@ const HomePage = () => {
 
   return (
     <div className={isDark === true ? "bg-mainblue h-full md:h-screen" : "bg-white m-auto"}>
-      <i className={isDark === true ? "bg-white w-10 text-amber-400 text-xl font-bold px-2 py-1 mt-2 rounded fas fa-sharp fa-light fa-sun m-auto" : "bg-mainblue w-10 font-bold px-2 py-1 mt-2 rounded fas fa-sharp fa-light fa-moon text-amber-300 text-xl m-auto"}
+      <i className={isDark === true ? "bg-white w-10 text-mainblue hover:text-amber-400 text-xl font-bold px-2 py-2 mt-2 rounded-full fas fa-sharp fa-light fa-sun m-auto cursor-pointer" : "bg-mainblue w-10 text-gray-50 hover:text-amber-400 text-xl font-bold px-2 py-2 mt-2 rounded-full fas fa-light fa-moon m-auto cursor-pointer"}
       onClick={handleDarkMode}></i>
       <section>
         <div>
@@ -72,7 +72,7 @@ const HomePage = () => {
                 placeholder="Search for a city        🌎"
                 value={inputVal}
                 onChange={handleInputChange}
-                className={isDark === true ? 'rounded-4 pl-2 mr-2 bg-amber-100 font-semibold' : "mr-2 font-semibold border-b-2 pl-2 rounded-4 border-gray-300 w-48"}
+                className={isDark === true ? 'rounded-2 pl-2 py-1 mr-2 bg-amber-100 font-semibold' : "mr-2 font-semibold border-b-2 pl-2 py-1 rounded-2 border-gray-300 w-48"}
               />
               <button
                 type="submit"
