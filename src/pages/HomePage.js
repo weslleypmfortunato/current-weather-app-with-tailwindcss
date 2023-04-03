@@ -1,4 +1,3 @@
-// import './HomePage.css'
 import '../css/build.css'
 import axios from 'axios'
 import { useState } from 'react'
@@ -120,5 +119,4 @@ const HomePage = () => {
   )
 }
 
- 
 export default HomePage;
