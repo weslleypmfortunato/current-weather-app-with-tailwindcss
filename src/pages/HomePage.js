@@ -10,7 +10,7 @@ const HomePage = () => {
   const [inputVal, setInputVal] = useState("")
   const [cities, setCities] = useState([])
   const [errorMsg, setErrorMsg] = useState("")
-  const [isDark, setIsDark] = useState(false)
+  const [isDark, setIsDark] = useState(true)
 
   const handleSubmit = e => {
   e.preventDefault()
@@ -60,12 +60,12 @@ const HomePage = () => {
   }
 
   return (
-    <div className={isDark === true ? "bg-blue-900 h-full" : "bg-white h-full m-auto"}>
-      <i className={isDark === true ? "bg-white w-10 text-amber-400 text-xl font-bold px-2 py-1 mt-2 rounded fas fa-sharp fa-light fa-sun m-auto" : "bg-blue-700 w-10 hover:bg-blue-800 font-bold px-2 py-1 mt-2 rounded fas fa-sharp fa-light fa-moon text-amber-300 text-xl m-auto"}
+    <div className={isDark === true ? "bg-mainblue h-full md:h-screen" : "bg-white m-auto"}>
+      <i className={isDark === true ? "bg-white w-10 text-amber-400 text-xl font-bold px-2 py-1 mt-2 rounded fas fa-sharp fa-light fa-sun m-auto" : "bg-mainblue w-10 font-bold px-2 py-1 mt-2 rounded fas fa-sharp fa-light fa-moon text-amber-300 text-xl m-auto"}
       onClick={handleDarkMode}></i>
       <section>
         <div>
-          <h1 className={isDark === true ? "font-bold m-4 text-xl md:text-4xl text-white" : "font-bold m-4 text-xl md:text-4xl text-blue-700"}>Current Weather</h1>
+          <h1 className={isDark === true ? "font-bold m-4 text-xl md:text-4xl text-white" : "font-bold m-4 text-xl md:text-4xl text-mainblue"}>Current Weather</h1>
           <form onSubmit={handleSubmit} className='mb-4'>
             <div className='flex flex-col items-center gap-2 md:flex md:flex-row md:justify-center mb-2'>
               <input
@@ -77,7 +77,7 @@ const HomePage = () => {
               />
               <button
                 type="submit"
-                className={isDark === true ? "px-2 rounded-4 mx-2 font-bold bg-amber-100 text-blue-700" : 'bg-blue-700 px-2 rounded-4 text-white font-bold mx-2'}>
+                className={isDark === true ? "px-2 rounded-4 mx-2 font-bold bg-amber-100 text-mainblue" : 'bg-mainblue px-2 rounded-4 text-white font-bold mx-2'}>
                 CHECK
               </button>
             </div>
@@ -92,10 +92,10 @@ const HomePage = () => {
               <li key={city.name}>
                 <div className={isDark === true ? 'flex flex-col items-center border border-gray-100 w-48 h-72 rounded shadow-2xl m-2 bg-blue-300' : "flex flex-col items-center border border-gray-200 w-48 h-72 rounded shadow-2xl m-2"}>
                   <img src={city.icon} alt={city.description} className='w-20 pt-2'/>
-                  <div className={isDark === true ? "text-white" : "text-blue-700"}>
+                  <div className={isDark === true ? "text-white" : "text-mainblue"}>
                     <h5>
-                      <span className={isDark === true ? "text-white font-semibold" : "text-blue-700 font-semibold"}>{city.name}</span>
-                      <sup className={isDark === true ? "bg-amber-400 rounded-full p-1 font-bold border-2 border-blue-700" : "bg-amber-400 rounded-full p-1 font-bold border-2 border-blue-700"}>{city.country}</sup>
+                      <span className={isDark === true ? "text-white font-semibold" : "text-mainblue font-semibold"}>{city.name}</span>
+                      <sup className={isDark === true ? "bg-amber-400 rounded-full p-1 font-bold border-2 border-mainblue" : "bg-amber-400 rounded-full p-1 font-bold border-2 border-mainblue"}>{city.country}</sup>
                     </h5>
                     <div className='mt-2'>{city.temp}<sup>°C</sup></div>
                     <figcaption className='mt-1'>{city.description}</figcaption>
