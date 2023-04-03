@@ -16,7 +16,7 @@ const HomePage = () => {
   e.preventDefault()
 
   if (!inputVal) {
-    setErrorMsg("Please enter a city name!")
+    setErrorMsg("Please enter a city name.")
     return;
   }
 
