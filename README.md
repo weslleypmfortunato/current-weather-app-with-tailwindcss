@@ -2,12 +2,13 @@
 
 <h2>💻 Overview </h2>
 
-<p>This is the latest version of the Weather Current Forecast build using ReactJS, Axios, HTML, TailwindCSS and Open Weather API.
+<p>This is the latest version of the Weather Current Forecast built using ReactJS, Axios, HTML, TailwindCSS and Open Weather API.
 
-I build this Rev.2 to put into practice my learningship in TailwindCSS. This is my first project using it, and as I did not use a CSS file, I could reduce the code from almost 360 lines to 122 lines.
+I built this Rev.2 to put into practice my learningship in TailwindCSS. This is my first project using it, and as I did not use a CSS file, I could reduce the code from almost 360 lines to 122 lines.
 The app allows users to easily view current weather forecasts for any city around the world 🌎, using data provided by the Open Weather API and it is totally responsive. You can try it on your 📱 smartphone or desktop.
 
 In addition to its functionality, the project boasts an elegant and user-friendly design, making for a pleasant and intuitive user experience. The interface includes features such as a city search field, elegant weather icons and essential information to keep you aware and avoid surprises throughout your day.
+
 The Current Weather Forecast is a great option for anyone seeking accurate and reliable real-time weather information. </p>
 
 <h2>🛸 Used Technologies 🛠</h2>
